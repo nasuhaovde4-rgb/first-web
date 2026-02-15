@@ -1,24 +1,66 @@
-.background{
-    background-color: white;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-.text{
+body{
+    margin: 0%;
+    background-color: hsl(120, 100%, 87%);
+}
+header{
+    background-color: limegreen;
+    padding: 10px;
+    border-bottom: 0.5px solid black;
+}
+h1{
     text-align: center;
+    padding: 15px;
+}
+.navbar ul{
+    background-color: hsl(120, 73%, 75%);
+    border-bottom: 0.5px solid black;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
     color: black;
-    font-family: "Times New Roman", Times, serif;
 }
-
-.text_paragraph{
+.navbar li:hover{
+    background-color: rgb(79, 163, 79);
+}
+.layout{
+    position: relative;
+    top: 0;
+    float: left;
+    background-color: green;
+}
+.layout li{
+    list-style-type: none;
+    padding: 20px;
+    width: 90px;
     text-align: center;
+    border-left: none;
+}
+.layout a{
+    text-decoration: none;
     color: black;
-    font-family: "Times New Roman", Times, serif;
 }
-
-.link{
-    color: green;
+.layout li:hover{
+    background-color: darkgreen;
 }
-
-td{
-    text-align: center;
-    font-weight: bold;
+.layout #li1{
+    border-bottom: none;
+}
+.layout #li2{
+    border-bottom: none;
+}
+.layout #li3{
+    border-bottom: none;
+}
+main{
+    padding: 20px;
+    padding-left: 150px;
 }
